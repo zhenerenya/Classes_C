@@ -46,7 +46,7 @@ int main()
 		sum += pp[i]->foo(procent);
 	}
 	cout << "Summa " << sum << endl;
-	
+	delete []pp;
 	system("pause");
 	return 0;
 }
